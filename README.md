@@ -10,6 +10,7 @@ git branch -M main
 git remote add origin git@github.com:sladuf/2021luvluc.git
 git push -u origin main
 
+
 ssh
 git remote add origin git@github.com:sladuf/2021luvluc.git
 git branch -M main
