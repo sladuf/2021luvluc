@@ -18,6 +18,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Cafe24';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .start{
     width:100px;
     background-color: #f8585b;
@@ -37,10 +44,18 @@
 }
 
 .middle{
-    width:80%;
+    width:90%;
     position: absolute; left: 50%; top: 50%;
     transform: translate(-50%, -50%); text-align: center;
     font-size: 15px;
+}
+.sign{
+    position: absolute;
+    top: 95%; left: 50%;
+    width: 100px;
+    height: 50px;
+    margin-left: -50px;
+    margin-top: -25px;
 }
 
 body{
