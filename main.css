@@ -11,6 +11,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Y_Spotlight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/Y_Spotlight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 .start{
     width:100px;
@@ -31,10 +37,11 @@
 }
 
 .middle{
-    position: absolute; left: 50%; top: 50%; 
+    position: absolute; left: 50%; top: 50%;
     transform: translate(-50%, -50%); text-align: center;
+    font-size: 15px;
 }
 
 body{
-	font-family: 'ELAND_Choice_M';
+        font-family: 'Y_Spotlight';
 }

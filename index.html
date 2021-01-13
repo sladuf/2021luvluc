@@ -1,19 +1,45 @@
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
-	<link rel="stylesheet" href="main.css">
-	<script type="text/javascript" src="kakao_api.js"></script>
-	<script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+        <link rel="stylesheet" href="main.css">
+        <script type="text/javascript" src="kakao_api.js"></script>
+        <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+        <script type="text/javascript">
+                var url_fb = "https://www.facebook.com/sharer/sharer.php?u=118.67.134.108";
+                function clip(){
+                        var url = document.url;
+                        window.clipboardData.setData("Text", url);
+                        alert("복사되었습니다.");
+                }
+        </script>
 </head>
 
 <body>
-	<div class="middle">
-		<h1>2021 나의 연애 확률은?</h1>
-		<button class="start">START</button>
-		<p>공유하기</p>
-		<a href="http://www.instagram.com"><img src="instagram.png" width="30" /></a>
-		<a id ="kakao-link-btn" href="javascript:snedLink()"><img src="kakao.png" width="30" /></a>
-		<a href="http://www.facebook.com"><img src="facebook.png" width="30" /></a>
-	</div>
+        <div class="middle">
+                <h1>2021<br>올해는 연애할 수 있을까?</h1>
+                <button class="start">START</button>
+                <p>공유하기</p>
+                <a href="http://www.instagram.com"><img src="instagram.png" width="30" /></a>
+                <a id ="kakao-link-btn" href="javascript:;"><img src="kakao.png" width="30" /></a>
+                <a href="" onclick="window.open(url_fb, '', 'scrollbars=no, width=600, height=600'); return false;"><img src="facebook.png" width="30" /></a>
+        </div>
+                <script type="text/javascript">
+    Kakao.init('3f6675f6accfe2b4a93153a51bf7ce31');
+
+    Kakao.Link.createDefaultButton({
+      container: '#kakao-link-btn',
+      objectType: 'feed',
+      content: {
+        title: '2021연애운',
+        description: '나의 2021 연애 확률은?!',
+        imageUrl: 'http://118.67.134.108/main.png',
+        link: {
+          mobileWebUrl: 'http://118.67.134.108',
+          webUrl: 'http://118.67.134.108'
+        }
+      },
+    });
+</script>
 </body>
 </html>
