@@ -31,19 +31,30 @@
                 <p>공유하기</p>
                 <a id ="kakao-link-btn" href="javascript:;"><img src="kakao.png" width="30" /></a>
                 <a href="" onclick="window.open(url_fb, '', 'scrollbars=no, width=600, height=600'); return false;"><img src="facebook.png" width="30" /></a>
-		      <script type="text/javascript">
-                    function CopyUrlToClipboard(){
-                    var obShareUrl = document.getElementById("ShareUrl");
-                    obShareUrl.value = window.document.location.href;  // 현재 URL 을 세팅해 줍니다.
-                    obShareUrl.select();  // 해당 값이 선택되도록 select() 합니다
-                    document.execCommand("copy"); // 클립보드에 복사합니다.
-                    obShareUrl.blur(); // 선택된 것을 다시 선택안된것으로 바꿈니다.
-                    alert("URL이 클립보드에 복사되었습니다");
-                }
-                </script>
-                <span class="btn-type1"><button id="btn" OnClick="javascript:CopyUrlToClipboard()"><img src="link.png"></button></span>
+              <button id="copyBtn"><img src="link.png"></button>
                 <br>
-                <input type="text" id = "ShareUrl">
+                <span id="textDiv">http://118.67.134.108/</span>
+              <script>
+                var copyBtn = document.getElementById("copyBtn");
+                // 버튼 클릭 이벤트
+                copyBtn.addEventListener("click", function(){
+                   // 복사할 텍스트를 변수에 할당해줍니다.
+                    var text = document.getElementById("textDiv").innerText;
+                    // input text 태그를 생성해줍니다.
+                    var createInput = document.createElement("input");
+                    createInput.setAttribute("type", "text");
+                    // 가상으로 가져올 태그에 만들어준 input 태그를 붙여줍니다.
+                    document.getElementById("textDiv").appendChild(createInput);
+                    // 만든 input 태그의 value 값에 복사할 텍스트 값을 넣어줍니다.
+                    createInput.value = text;
+                    // 복사 기능을 수행한 후
+                    createInput.select();
+                    document.execCommand('copy');
+                    // 가상으로 붙여주었던 input 태그를 제거해줍니다.
+                    document.getElementById("textDiv").removeChild(createInput);
+                    alert('복사가 완료되었습니다.');
+                });
+                </script>                
         </div>
         </div>
                 <script type="text/javascript">
