@@ -25,11 +25,23 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'ImcreSoojin';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.3/ImcreSoojin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .middle{
-    width:90%;
-    position: absolute; left: 50%; top: 50%;
-    transform: translate(-50%, -50%); text-align: center;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 50%; left: 50%;
+    margin-left: -200px;
+    margin-top: -150px;
+    text-align: center;
     font-size: 15px;
+
 }
 
 .sign{
@@ -42,7 +54,9 @@
 }
 
 body{
-        font-family: 'ELAND_Choice_M';
+        font-family: 'ImcreSoojin';
+        font-size: 15px;
+        
 
 }
 
@@ -98,9 +112,35 @@ input[type="checkbox"]:checked + label em{
     background-size: 20px; 
     }
 
-#align {
-  white-space: nowrap;
-  font-size: 0;
-  text-shadow: none;
+.question{
+  width: 100px;
+  margin: 0 auto;
+}
+.chkCondition{
+  
+  text-align: left;
+}
+p{
+  line-height: -1;
 }
 
+.btn{
+    background-color: #ffffff;
+    border-radius:10px;
+    border: 3px solid;
+    border-color: #FA8072;
+    width: 350px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    margin: auto;
+    cursor: pointer;
+     font-family: 'ImcreSoojin';
+        font-size: 15px;
+    }
+.btn:hover{
+    background-color: #FA8072;
+    color:#fff;
+}
