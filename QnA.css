@@ -68,18 +68,8 @@ body{
   cursor: pointer;
   background-color: #FA8072;
   border-radius: 10px;
-  width: 80px;
+  width: 250px;
   height: 45px;
-}
-
-#align label:nth-child(2) {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
-#align label:last-child {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
 }
 
 #align input:checked+label {
@@ -108,4 +98,9 @@ input[type="checkbox"]:checked + label em{
     background-size: 20px; 
     }
 
+#align {
+  white-space: nowrap;
+  font-size: 0;
+  text-shadow: none;
+}
 
