@@ -26,10 +26,15 @@
 }
 
 .middle{
-    width:90%;
-    position: absolute; left: 50%; top: 50%;
-    transform: translate(-50%, -50%); text-align: center;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 50%; left: 50%;
+    margin-left: -200px;
+    margin-top: -150px;
+    text-align: center;
     font-size: 15px;
+
 }
 
 .sign{
@@ -43,6 +48,8 @@
 
 body{
         font-family: 'ELAND_Choice_M';
+        font-size: 15px;
+        
 
 }
 
@@ -107,5 +114,14 @@ input[type="checkbox"]:checked + label em{
     background:url('check.png') 0 0 no-repeat;
     background-size: 20px; 
     }
-
-
+.question{
+  width: 100px;
+  margin: 0 auto;
+}
+.chkCondition{
+  
+  text-align: left;
+}
+p{
+  line-height: -1;
+}
