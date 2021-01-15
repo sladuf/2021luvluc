@@ -26,7 +26,7 @@
 }
 
 .start{
-    width:100px;
+    width:25%;
     background-color: #f8585b;
     border-radius:10px;
     color:#fff;
@@ -44,10 +44,10 @@
 }
 
 .middle{
-    width:90%;
+    width:100%;
     position: absolute; left: 50%; top: 50%;
     transform: translate(-50%, -50%); text-align: center;
-    font-size: 15px;
+    font-size: 4vw;
 }
 .sign{
     position: absolute;
@@ -60,6 +60,7 @@
 
 body{
         font-family: 'Y_Spotlight';
+        text-align: "center";
 
 }
 input{
@@ -82,7 +83,7 @@ input{
 #align label {
   display: inline-block;
   margin: -2px 0 0;
-  font-size: 20px;
+  font-size: 6vw;
   line-height: 45px;
   color: #c1c1c1;
   text-align: center;
@@ -91,7 +92,7 @@ input{
   cursor: pointer;
   background-color: #FA8072;
   border-radius: 10px;
-  width: 80px;
+  width: 20%;
   height: 45px;
 }
 
