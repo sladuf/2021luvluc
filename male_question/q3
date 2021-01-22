@@ -1,0 +1,9 @@
+<img src="/img/q3.png">
+<div id="q3">
+    <p data-type="text">Q. 다음 중 여자친구가 가장 좋아할 것 같은 첫 여행 장소를 고르시오.</p>
+    <p><button class="btn" name="btn" type="submit" value="A" onclick="acyncMovePage('/male_question/q4')">바닷가</button></p>
+    <p><button class="btn" name="btn" type="submit" value="C" onclick="acyncMovePage('/male_question/q4')">스키장</button></p>
+    <p><button class="btn" name="btn" type="submit" value="I" onclick="acyncMovePage('/male_question/q4')">낚시터</button></p>
+    <p><button class="btn" name="btn" type="submit" value="H" onclick="acyncMovePage('/male_question/q4')">등산</button></p>
+    <p><button class="btn" name="btn" type="submit" value="G" onclick="acyncMovePage('/male_question/q4')">템플스테이</button></p>
+</div>

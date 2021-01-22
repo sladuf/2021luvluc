@@ -1,0 +1,60 @@
+<html>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YT404V0JQL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YT404V0JQL');
+</script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <head>
+    <?php
+    include "session.php";
+    ?>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+
+    <title>2021연애확률테스트 | 여자용</title>
+    <link rel="icon" href="/img/favicon.png">
+        <link rel="apple-touch-icon" href="/img/favicon.png" />
+
+    <link rel="stylesheet" href="/css/test.css">
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+            window.onpageshow = function(event){ if ( event.persisted || (window.performance && window.performance.navigation.type == 2)){
+                location.href="index.html";
+        }
+      };
+        </script>
+    <script>
+        function f5() {
+            if (performance.navigation.type == 1) {
+                   <?php $_SESSION['total']=0; $_SESSION['qna']=0; ?>
+            }
+        }
+    </script>  
+  </head>
+<body onload="f5();">
+    <p style="font-family: 'Cafe24'"> @TeamI Project </p>
+        <div class="middle">
+          <form id="send" type="POST" action="cal.php" target="iframe1">
+            <div id="bodyContents">
+              <img src="/img/q1.png">
+              <div id="q1">
+                <p data-type="text">Q. 다음 중 당신이 가장 매력을 느끼는 남자는?</p>
+                <p><button class="btn" name="btn" type="submit" value="B" onclick="acyncMovePage('/female_question/q2')">나 좋다는 엄마 친구 아들</button></p>
+                <p><button class="btn" name="btn" type="submit" value="E" onclick="acyncMovePage('/female_question/q2')">나 포함 모두에게 친절한 교회 오빠</button></p>
+                <p><button class="btn" name="btn" type="submit" value="C" onclick="acyncMovePage('/female_question/q2')">비비크림 바르는 존잘 선배</button></p>
+                <p><button class="btn" name="btn" type="submit" value="A" onclick="acyncMovePage('/female_question/q2')">말 잘 통하는 남사친</button></p>
+                 <p><button class="btn" name="btn" type="submit" value="I" onclick="acyncMovePage('/female_question/q2')">답장 하루에 한 번 오는 짝남</button></p>
+              </div>
+            </div>
+          </form>
+          <br><br>
+        </div>
+            <script type="text/javascript" src="/js/movePage.js"></script>
+</body>
+<iframe name="iframe1" style="display:none;"></iframe>
+</html>

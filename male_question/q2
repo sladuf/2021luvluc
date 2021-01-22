@@ -1,0 +1,9 @@
+<img src="/img/q2.png">
+<div id="q2">
+    <p data-type="text">Q. 데이트 도중 구두를 신은 여자친구가 발이 아프다고 한다.<br>당신의 반응은?</p>
+    <p><button class="btn" name="btn" type="submit" value="H" onclick="acyncMovePage('/male_question/q3')">"내가 업어줄게! 어서 업혀!"</button></p>
+    <p><button class="btn" name="btn" type="submit" value="G" onclick="acyncMovePage('/male_question/q3')">"그럼 일찍 집에 가자...!"</button></p>
+    <p><button class="btn" name="btn" type="submit" value="A" onclick="acyncMovePage('/male_question/q3')">잠시만 기다려보라고 하고 슬리퍼를 사 온다</button></p>
+    <p><button class="btn" name="btn" type="submit" value="C" onclick="acyncMovePage('/male_question/q3')">"어떡하지ㅜㅜ? 쉬었다 갈까?"</button></p>
+    <p><button class="btn" name="btn" type="submit" value="I" onclick="acyncMovePage('/male_question/q3')">"그러게 편한 거 신고오지..."</button></p>
+</div>

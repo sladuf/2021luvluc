@@ -1,0 +1,71 @@
+<html>
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YT404V0JQL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YT404V0JQL');
+</script>
+<?php
+include "session.php";
+?>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+        <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+
+            <title>2021연애확률테스트 | INTRO</title>
+    <link rel="icon" href="/img/favicon.png">
+        <link rel="apple-touch-icon" href="/img/favicon.png" />
+        <link rel="stylesheet" href="/css/check.css">
+        <script type="text/javascript">
+            window.onpageshow = function(event){ if ( event.persisted || (window.performance && window.performance.navigation.type == 2)){
+                <?php $_SESSION['total']=0; $_SESSION['qna']=0; ?>
+        }
+      };
+        </script>
+</head>
+<body>
+    <p style="font-family: 'Cafe24'"> @TeamI Project </p>
+        <div class="middle">
+            <br>
+            <img src="/img/mainheart.png" >
+            <form action="check.php" method="POST">
+            <input type="submit" class="start" value="START">
+            <br>
+	    <p>Q.다음 중 이성을 볼 때  따지는 것을<br>모두 고르시오.</p>
+        	<div class="question">
+        		<div class="chkCondition">
+                <p>
+                    <input type="checkbox" id=0 name="check[]">
+                    <label for=0><em></em>외모</label>
+                </p>
+                <p>
+                    <input type="checkbox" id=1 name="check[]">
+                    <label for=1><em></em>피지컬 </label>
+                </p>
+                <p>
+                <input type="checkbox" id=2 name="check[]">
+                <label for=2><em></em>성격</label>
+                </p>
+                <p>
+                    <input type="checkbox" id=3 name="check[]">
+                    <label for=3 ><em></em>재력 </label>
+                </p>
+        		<p>
+                    <input type="checkbox" id=4 name="check[]">
+		    <label for=4><em></em>잠자리</label>
+                </p>
+        		</div>
+        	</div>
+            </form>
+        </div>
+	<ins class="kakao_ad_area" style="display:none;"
+ data-ad-unit    = "DAN-PUJYHv5Vk47UhmCX"
+ data-ad-width   = "320"
+ data-ad-height  = "100"></ins>
+	<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+</body>
+</html>
+

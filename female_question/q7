@@ -1,0 +1,9 @@
+<img src="/img/q7.png">
+<div id="q7">
+    <p data-type="text">Q. 남자친구의 친구들과 술자리를 가지게 되었다. 당신은 남자친구의 기를 어떻게 살려줄 것인가?</p>
+    <p><button class="btn" name="btn" type="submit" value="E" onclick="acyncMovePage('/female_question/q8')">"우리 OO이 못 생겼지만 똑똑하잖아요. 다들 인정하시죠?"</button></p>
+    <p><button class="btn" name="btn" type="submit" value="C" onclick="acyncMovePage('/female_question/q8')">"제가 OO이 좋아서 계속 쫓아다녔어요."</button></p>
+    <p><button class="btn" name="btn" type="submit" value="G" onclick="acyncMovePage('/female_question/q8')">"우리 OO이는 얼굴도 잘 생겼고, 몸도 좋고, 공부도 잘 하고 ···"</button></p>
+    <p><button class="btn" name="btn" type="submit" value="A" onclick="acyncMovePage('/female_question/q8')">"OO이가 밤에 진짜 무서워요"</button></p>
+    <p><button class="btn" name="btn" type="submit" value="B" onclick="acyncMovePage('/female_question/q8')">내가 예쁜 게 장땡이다. 세상 제일 꾸미고 간다.</button></p>
+</div>

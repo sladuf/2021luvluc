@@ -1,0 +1,10 @@
+<img src="/img/q5.png">
+<div id="q5">
+    <p data-type="text">Q. 키스는 사귄 이후 어느 시점부터 가능하다고 생각하는가?</p>
+    <p><button class="btn" name="btn" type="submit" value="B" onclick="acyncMovePage('/female_question/q6')">사귀기 전부터</button></p>
+    <p><button class="btn" name="btn" type="submit" value="A" onclick="acyncMovePage('/female_question/q6')">사귄 날부터 바로</button></p>
+    <p><button class="btn" name="btn" type="submit" value="D" onclick="acyncMovePage('/female_question/q6')">사귀고 한 달 뒤</button></p>
+    <p><button class="btn" name="btn" type="submit" value="H" onclick="acyncMovePage('/female_question/q6')">사귀고 일 년 뒤</button></p>
+    <p><button class="btn" name="btn" type="submit" value="I" onclick="acyncMovePage('/female_question/q6')">혼인신고 후</button></p>
+</div>
+       

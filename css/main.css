@@ -1,0 +1,263 @@
+@font-face {
+    font-family: 'ELAND_Choice_M';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Choice_M.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ELAND_Choice_L';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Choice_L.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Y_Spotlight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/Y_Spotlight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cafe24';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ImcreSoojin';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.3/ImcreSoojin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.start{
+    width:25%;
+    height: auto;
+    background-color: #f8585b;
+    border-radius:10px;
+    color:#fff;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 150%;
+    font-family: 'ImcreSoojin';
+    margin: auto;
+    cursor: pointer;
+    border: 0;
+    }
+.start:hover{
+    background-color: #FA8072;
+}
+
+.middle{
+    width:100%;
+    height: 60%;
+    position: absolute; left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 4vw;
+}
+#title{
+  width: 90%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+body{
+        font-family: 'ImcreSoojin';
+        text-align: center;
+}
+
+input{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0px;
+}
+
+#align {
+  white-space: nowrap;
+  font-size: 0;
+  text-shadow: none;
+  height: auto;
+}
+
+#align input {
+  display: none;
+}
+
+#align label {
+  display: inline-block;
+  margin: -2px 0 0;
+  font-size: 6vw;
+  line-height: 45px;
+  color: #c1c1c1;
+  text-align: center;
+  text-shadow: none;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #FA8072;
+  border-radius: 10px;
+  width: 20%;
+  height: auto;
+}
+
+#align label:nth-child(2) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#align label:last-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#align input:checked+label {
+  outline: 0;
+  color: #ffffff;
+  box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  background-color: #f8585b;
+}
+#textDiv{
+    font-size: 1px;
+    color: #fff;
+}
+#copyBtn{
+    cursor: pointer;
+    padding: 0;
+    border: none;
+}
+#copyBtn > img {
+    width: 30px;
+    height: 29px;
+}
+
+.name{
+  width:70%; 
+  height: auto;
+  border-radius:10px; 
+  border-color: #f8585b;
+  border-width: 3px; 
+  height:50px; 
+  text-align: center; 
+  font-family: ImcreSoojin; font-size: 5vw;
+}
+
+
+
+@media screen and (min-width: 750px) {
+   .start{
+    height: auto;
+    width:25%;
+    background-color: #f8585b;
+    border-radius:10px;
+    color:#fff;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 150%;
+    margin: auto;
+    cursor: pointer;
+    border: 0;
+    }
+.start:hover{
+    background-color: #FA8072;
+}
+
+.middle{
+    width:70%;
+    height: 60%;
+    position: absolute; left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 3vw;
+}
+#title{
+  width: 50%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+body{
+        font-family: 'ImcreSoojin';
+        text-align: center;
+
+}
+input{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0px;
+}
+
+#align {
+  white-space: nowrap;
+  font-size: 0;
+  text-shadow: none;
+  height: auto;
+}
+
+#align input {
+  display: none;
+}
+
+#align label {
+  display: inline-block;
+  margin: -2px 0 0;
+  font-size: 4vw;
+  line-height: 45px;
+  color: #c1c1c1;
+  text-align: center;
+  text-shadow: none;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #FA8072;
+  border-radius: 10px;
+  width: 20%;
+  height: auto;
+}
+
+#align label:nth-child(2) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#align label:last-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#align input:checked+label {
+  outline: 0;
+  color: #ffffff;
+  box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  background-color: #f8585b;
+}
+#textDiv{
+    font-size: 1px;
+    color: #fff;
+}
+#copyBtn{
+    cursor: pointer;
+    padding: 0;
+    border: none;
+}
+#copyBtn > img {
+    width: 30px;
+    height: 29px;
+}
+
+.name{
+  width:50%; 
+  border-radius:10px; 
+  border-color: #f8585b;
+  border-width: 3px; 
+  height:auto; 
+  text-align: center; 
+  font-family: ImcreSoojin; font-size: 3vw;
+}
+}

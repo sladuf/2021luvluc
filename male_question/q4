@@ -1,0 +1,9 @@
+<img src="/img/q4.png">
+<div id="q4">
+    <p data-type="text">Q. 다음 중 데이트 전 날 보낼 문자로 가장 적절한 것을 고르시오.</p>
+    <p><button class="btn" name="btn" type="submit" value="I" onclick="acyncMovePage('/male_question/q5')">"내일 우리집 앞으로 와"</button></p>
+    <p><button class="btn" name="btn" type="submit" value="A" onclick="acyncMovePage('/male_question/q5')">"내일 집 앞으로 데리러 갈게"</button></p>
+    <p><button class="btn" name="btn" type="submit" value="C" onclick="acyncMovePage('/male_question/q5')">"내일 집 앞으로 데리러 갈까?"</button></p>
+    <p><button class="btn" name="btn" type="submit" value="G" onclick="acyncMovePage('/male_question/q5')">"내일 OO식당에서 밥 먹기로 했지?<br>거기서 만나자"</button></p>
+    <p><button class="btn" name="btn" type="submit" value="B" onclick="acyncMovePage('/male_question/q5')">"내일 합정역 5번 출구에서 만나자"</button></p>
+</div> 

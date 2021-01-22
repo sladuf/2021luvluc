@@ -1,0 +1,9 @@
+<img src="/img/q9.png">
+<div id="q9">
+    <p data-type="text">Q. 같은 조로 조별과제를 하고 있는 과 동기 남자애가 밤에 "뭐해?" 라며 카톡이 왔다.<br>무슨 의미인가?</p>
+    <p><button class="btn" name="btn" type="submit" value="G" onclick="acyncMovePage('/female_question/q10')">진짜 그냥 뭐 하는지 궁금해서</button></p>
+    <p><button class="btn" name="btn" type="submit" value="H" onclick="acyncMovePage('/female_question/q10')">나에게 호감이 있어서</button></p>
+    <p><button class="btn" name="btn" type="submit" value="I" onclick="acyncMovePage('/female_question/q10')">안 자면 술김에 고백하려고 </button></p>
+    <p><button class="btn" name="btn" type="submit" value="A" onclick="acyncMovePage('/female_question/q10')">과제를 대신 해달라고 부탁하려고</button></p>
+    <p><button class="btn" name="btn" type="submit" value="B" onclick="acyncMovePage('/female_question/q10')">"너 지금 과제 안 하고 뭐해?"</button></p>
+</div>

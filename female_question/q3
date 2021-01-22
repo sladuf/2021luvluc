@@ -1,0 +1,9 @@
+<img src="/img/q3.png">
+<div id="q3">
+    <p data-type="text">Q. 남자친구한테 전화했는데 롤 승급전 중이라고 한다. <br>당신의 반응은?</p>
+    <p><button class="btn" name="btn" type="submit" value="A" onclick="acyncMovePage('/female_question/q4')">"꼭 이기고 와. 화이팅!"</button></p>
+    <p><button class="btn" name="btn" type="submit" value="E" onclick="acyncMovePage('/female_question/q4')">"내가 중요해, 롤이 중요해?"</button></p>
+    <p><button class="btn" name="btn" type="submit" value="I" onclick="acyncMovePage('/female_question/q4')">"나 브론즈인데 나랑 같이하자!"</button></p>
+    <p><button class="btn" name="btn" type="submit" value="B" onclick="acyncMovePage('/female_question/q4')">"헉 ! 미안해. 끊을게!"</button></p>
+    <p><button class="btn" name="btn" type="submit" value="G" onclick="acyncMovePage('/female_question/q4')">"어 전화 끊고 그냥 평생 게임해"</button></p>
+</div>

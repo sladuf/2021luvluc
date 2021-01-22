@@ -12,17 +12,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
     <meta property="og:url" content="https://teami.site">
-    <meta property="og:title" content="2021 연애확률 테스트">
+    <meta property="og:title" content="2021연애확률테스트">
     <meta property="og:type" content="website">
     <meta property="og:image" content="/img/Thumbnail.png">
     <meta property="og:description" content="2021 나의 연애 확률을 알아보자">
-    <title>2021연애확률테스트</title>
-    <meta name="description" content="2021년에 과연 나는 연애 할 수 있을까? 나의 연애 확률을 알아보자">
-    <link rel="canonical" href="https://teami.site/index.html">
+    <title>2021연애확률테스트 | RESULT</title>
     <link rel="icon" href="/img/favicon.png">
-
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="apple-touch-icon" href="/img/favicon.png" />
+	<style>
+		#fade{
+			display:none;
+		}
+	</style>
+        <link rel="stylesheet" href="/css/result.css">
         <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+	 <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	 <script>
+		$(document).ready(function(){
+			$('#fade').fadeIn(1500);
+		});
+	 </script>
         <script type="text/javascript">
                 var url_fb = "https://www.facebook.com/sharer/sharer.php?u=teami.site";
                 function clip(){
@@ -32,41 +42,24 @@
                 }
         </script>
          <?php
-             session_start();
-             if(isset($_SESSION['id'])){
-             session_destroy();
-            }
+             include "result.php";
         ?>
-       
 </head>
-<body>
+<body id="fade">
     <p style="font-family: 'Cafe24'"> @TeamI Project </p>
-    <div style="margin: 0px;">
-<ins class="kakao_ad_area" style="display:none;" 
- data-ad-unit    = "DAN-oxVnfmWzNIVNyliB" 
- data-ad-width   = "320" 
- data-ad-height  = "100"></ins> 
-</div>
         <div class="middle">
             <br>
-                <img id="title" src="/img/title.gif">
-                <form action="login.php" method="POST">
-                <input type="text" name="name" class="name" placeholder="이름을 입력하세용" maxlength="10"><br><br>
-                <div id="align">
-                    <input type="radio" id="female" name="sex" value="female" checked="checked">
-                    <label for="female">여자</label>
-                    <input type="radio" id="male" name="sex" value="male">
-                    <label for="male">남자</label>
-                </div><br>
-                <input type="submit" class="start" value="START">
-            </form>
-                <p>공유하기</p>
+            <img src ="<?php echo $img; ?>" id="heart" >
+                <h1><?php echo $name; ?>님의</h1>
+                <h1 style="color: #f8585b;">연애 확률 <?php echo $total; ?>%</h1>
+                <br>
+                <p id="content"> <?php echo $content; ?></p>
+                <p style="margin-bottom: 1px;">내 결과 공유하기</p>
                 <a id ="kakao-link-btn" href="javascript:;"><img src="/img/kakao.png" width="30" /></a>
                 <a href="" onclick="window.open(url_fb, '', 'scrollbars=no, width=600, height=600'); return false;"><img src="/img/facebook.png" width="30" /></a>
               <button id="copyBtn"><img src="/img/link.png"></button>
-                <br>
+                <br><br>
                 <span id="textDiv">https://teami.site</span>
-		<p style="color:#BDBDBD;"> 2021 연애확률테스트 | 연애운 | 연애가능성</p>
               <script>
                 var copyBtn = document.getElementById("copyBtn");
                 // 버튼 클릭 이벤트
@@ -87,7 +80,12 @@
                     document.getElementById("textDiv").removeChild(createInput);
                     alert('복사가 완료되었습니다.');
                 });
-                </script>                
+                </script>
+                <div style="align-content: :center;">
+                <iframe width="320" height="50" allowtransparency="true" src="https://mtab.clickmon.co.kr/pop/wp_m_320.php?PopAd=CM_M_1003067%7C%5E%7CCM_A_1085996%7C%5E%7CAdver_M_1046207&mon_rf=REFERRER_URL" frameborder="0" scrolling="no"></iframe>
+                </div>
+                <input type="submit" class="start" value="다시하기" onclick="location.href='index.html'">   
+                <br><br>             
         </div>
                 <script type="text/javascript">
     Kakao.init('3f6675f6accfe2b4a93153a51bf7ce31');
@@ -96,8 +94,8 @@
       container: '#kakao-link-btn',
       objectType: 'feed',
       content: {
-        title: '2021연애운',
-        description: '2021 나의 연애 확률을 알아보자',
+        title: '<?php echo $name; ?>님의 연애 확률 <?php echo $total; ?>%',
+        description: '당신의 연애 확률도 테스트해 보아요! ',
         imageUrl: 'https://teami.site/img/Thumbnail.png',
         link: {
           mobileWebUrl: 'https://teami.site',
@@ -105,7 +103,7 @@
         }
       },
     });
+
 </script>
-<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
 </body>
 </html>

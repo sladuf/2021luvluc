@@ -1,0 +1,9 @@
+<img src="/img/q10.png">
+<div id="q10">
+    <p data-type="text">Q. 여자친구가 카톡으로 '오빠 오늘 우리집에서 자고가면 안되?' 라고 했을때 당신의 반응은?</p>
+    <p><button class="btn" name="btn" type="submit" value="A" onclick="acyncMovePage('/male_question/q10')">"치킨 사 들고 지금 갈게"</button></p>
+    <p><button class="btn" name="btn" type="submit" value="B" onclick="acyncMovePage('/male_question/q10')">"팬티 벗고 가도 돼?"</button></p>
+    <p><button class="btn" name="btn" type="submit" value="H" onclick="acyncMovePage('/male_question/q10')">"어맛! 응큼하긴!^~^"</button></p>
+    <p><button class="btn" name="btn" type="submit" value="F" onclick="acyncMovePage('/male_question/q10')">"벌써..? 나 아직 마음의 준비가 안 됐는데.."</button></p>
+    <p><button class="btn" name="btn" type="submit" value="I" onclick="acyncMovePage('/male_question/q10')">"되 아니고 돼야"</button></p>
+</div>

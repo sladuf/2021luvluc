@@ -1,0 +1,9 @@
+<img src="/img/q2.png">
+<div id="q2">
+    <p data-type="text">Q. 남자친구가 "자기야 배고파. 뭐 먹을까?" 라고 물어보았다. <br>당신의 대답은?</p>
+    <p><button class="btn" name="btn" type="submit" value="E" onclick="acyncMovePage('/female_question/q3')">"아무거나!"</button></p>
+    <p><button class="btn" name="btn" type="submit" value="A" onclick="acyncMovePage('/female_question/q3')">"자기는 뭐 먹고 싶어?"</button></p>
+    <p><button class="btn" name="btn" type="submit" value="G" onclick="acyncMovePage('/female_question/q3')">"내가 어제 먹고 싶다고 말했던 거"</button></p>
+    <p><button class="btn" name="btn" type="submit" value="F" onclick="acyncMovePage('/female_question/q3')">"난 에이징한 닭가슴살에 발사믹 소스를 세 번 두른 또띠아"</button></p>
+    <p><button class="btn" name="btn" type="submit" value="B" onclick="acyncMovePage('/female_question/q3')">"너❤"</button></p>
+</div>

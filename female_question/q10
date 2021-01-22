@@ -1,0 +1,10 @@
+<img src="/img/q10.png">
+<div id="q10">
+    <p data-type="text">Q. 당신의 친구가 "너의 남자친구가 바람을 피고 있다"고 한다. 당신의 반응은?</p>
+    <p><button class="btn" name="btn" type="submit" value="A">남자친구한테 직접 물어본다.</button></p>
+    <p><button class="btn" name="btn" type="submit" value="H">친구가 거짓말을 했을 리 없다. 바로 헤어진다.</button></p>
+    <p><button class="btn" name="btn" type="submit" value="D">남자친구의 뒷조사를 한다.</button></p>
+    <p><button class="btn" name="btn" type="submit" value="G">너랑 바람피는 거 아니냐며 친구를 추궁한다.</button></p>
+    <p><button class="btn" name="btn" type="submit" value="I">모르는 척 하고 계속 만난다.</button></p>
+</div>
+

@@ -1,0 +1,9 @@
+<img src="/img/q5.png">
+<div id="q5">
+    <p data-type="text">Q. 썸녀의 "나 내일부터 자취한다~!" 에 대한 당신의 반응은?</p>
+    <p><button class="btn" name="btn" type="submit" value="C" onclick="acyncMovePage('/male_question/q6')">디퓨저 사서 집들이 간다.</button></p>
+    <p><button class="btn" name="btn" type="submit" value="A" onclick="acyncMovePage('/male_question/q6')">내일 짐 정리를 도와주러 가겠다고 한다.</button></p>
+    <p><button class="btn" name="btn" type="submit" value="I" onclick="acyncMovePage('/male_question/q6')">전세인지 월세인지 물어본다.</button></p>
+    <p><button class="btn" name="btn" type="submit" value="B" onclick="acyncMovePage('/male_question/q6')">내가 신던 신발과 입던 옷을 가져다 준다.</button></p>
+    <p><button class="btn" name="btn" type="submit" value="H" onclick="acyncMovePage('/male_question/q6')">돈 반반 내고 같이 살자고 한다.</button></p>
+</div>

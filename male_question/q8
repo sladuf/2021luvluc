@@ -1,0 +1,9 @@
+<img src="/img/q8.png">
+<div id="q8">
+    <p data-type="text">Q. 여자친구가 데이트 날 파인 옷에 짧은 치마를 입고 왔다. 당신의 반응은?</p>
+    <p><button class="btn" name="btn" type="submit" value="A" onclick="acyncMovePage('/male_question/q9')">앉을 때나 계단 올라갈 때 겉옷으로 가려준다.</button></p>
+    <p><button class="btn" name="btn" type="submit" value="C" onclick="acyncMovePage('/male_question/q9')">보여주려고 입고 나온 거겠지 하며 괜히 신경 쓰지 않는다.</button></p>
+    <p><button class="btn" name="btn" type="submit" value="G" onclick="acyncMovePage('/male_question/q9')">잠시만 기다리라고 하고 일단 근처 옷가게에서 옷을 사서 입힌다</button></p>
+    <p><button class="btn" name="btn" type="submit" value="I" onclick="acyncMovePage('/male_question/q9')">"너무 섹시한데? 무슨 의미야?"</button></p>
+    <p><button class="btn" name="btn" type="submit" value="H" onclick="acyncMovePage('/male_question/q9')">"이게 뭐야 장난해?! 당장 집에 가서 갈아입어 나 화나"</button></p>
+</div>

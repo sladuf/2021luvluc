@@ -1,0 +1,9 @@
+<img src="/img/q7.png">
+<div id="q7">
+    <p data-type="text">Q. 여자친구가 생리가 터져서 당일 데이트 약속을 취소했다. 당신의 반응은?</p>
+    <p><button class="btn" name="btn" type="submit" value="A" onclick="acyncMovePage('/male_question/q8')">집 앞에 마카롱을 두고 맛있게 먹으라며 문자를 보낸다.</button></p>
+    <p><button class="btn" name="btn" type="submit" value="F" onclick="acyncMovePage('/male_question/q8')">"괜찮아? 네가 아프니까 내 마음이 더 아파ㅜㅜ힝힝"</button></p>
+    <p><button class="btn" name="btn" type="submit" value="I" onclick="acyncMovePage('/male_question/q8')">"생리 날짜 미리 체크 좀 해놓지..."</button></p>
+    <p><button class="btn" name="btn" type="submit" value="H" onclick="acyncMovePage('/male_question/q8')">집 앞에 마카롱 들고가서 나올 때까지 기다린다.</button></p>
+    <p><button class="btn" name="btn" type="submit" value="G" onclick="acyncMovePage('/male_question/q8')">보고싶은데 아쉽다며 서운한 티를 낸다.</button></p>
+</div>

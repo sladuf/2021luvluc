@@ -1,0 +1,9 @@
+<img src="/img/q4.png">
+<div id="q4">
+    <p data-type="text">Q. 헬스 한달 차 남자친구가 "나 몸 좀 좋아진 거 같지 않아?" 라고 묻는다. <br>당신의 반응은?</p>
+    <p><button class="btn" name="btn" type="submit" value="C" onclick="acyncMovePage('/female_question/q5')">"오 3대 몇 쳐?"</button></p>
+    <p><button class="btn" name="btn" type="submit" value="I" onclick="acyncMovePage('/female_question/q5')">"ㅋㅋ 한달가지고 헬창인 척 하네"</button></p>
+    <p><button class="btn" name="btn" type="submit" value="F" onclick="acyncMovePage('/female_question/q5')">"음.. 전면 삼각근은 보기 좋은데 후면은 좀 부실한 거 같아."</button></p>
+    <p><button class="btn" name="btn" type="submit" value="A" onclick="acyncMovePage('/female_question/q5')">(팔뚝을 만지며) "대박! 안에 돌 들어있는데?"</button></p>
+    <p><button class="btn" name="btn" type="submit" value="B" onclick="acyncMovePage('/female_question/q5')">"글쎄..벗겨봐야 알 거 같아"</button></p>
+</div>

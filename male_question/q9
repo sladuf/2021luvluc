@@ -1,0 +1,10 @@
+<img src="/img/q9.png">
+<div id="q9">
+    <p data-type="text">Q. 대학교 동기들이 MT를 가자고 제안했다.
+  동기 중에 여자가 있는 게 신경이 쓰인다는 여자친구한테 어떻게 말할 것인가?</p>
+    <p><button class="btn" name="btn" type="submit" value="B" onclick="acyncMovePage('/male_question/q10')">"걔네 나한테 아무것도 아니지만 네가 신경 쓰인다면 안 갈게"</button></p>
+    <p><button class="btn" name="btn" type="submit" value="I" onclick="acyncMovePage('/male_question/q10')">일이 커지지 않게 가지 않겠다고 말하고 몰래 간다.</button></p>
+    <p><button class="btn" name="btn" type="submit" value="I" onclick="acyncMovePage('/male_question/q10')">"다른 애들은 여자친구가 다 허락했다는데..."</button></p>
+    <p><button class="btn" name="btn" type="submit" value="I" onclick="acyncMovePage('/male_question/q10')">"걔네 나한테 여자 아니야~ 걔네랑 목욕탕도 갈 수 있어~"</button></p>
+    <p><button class="btn" name="btn" type="submit" value="A" onclick="acyncMovePage('/male_question/q10')">그냥 처음부터 동기의 제안을 거절한다.</button></p>
+</div>

@@ -1,0 +1,9 @@
+<img src="/img/q6.png">
+<div id="q6">
+    <p data-type="text">Q. 소개팅에서 여자가 데이트 비용을 모두 지불했다.<br>어떤 의미라고 생각하는가?</p>
+    <p><button class="btn" name="btn" type="submit" value="H" onclick="acyncMovePage('/male_question/q7')">100% 관심의 표현이다.</button></p>
+    <p><button class="btn" name="btn" type="submit" value="I" onclick="acyncMovePage('/male_question/q7')">다음에 나보고 사라는 애프터 신청이다.</button></p>
+    <p><button class="btn" name="btn" type="submit" value="D" onclick="acyncMovePage('/male_question/q7')">신세지는 걸 싫어하는 호구이다.</button></p>
+    <p><button class="btn" name="btn" type="submit" value="A" onclick="acyncMovePage('/male_question/q7')">나 같은 사람한테는 얻어먹기도 싫다는 의미이다.</button></p>
+    <p><button class="btn" name="btn" type="submit" value="G" onclick="acyncMovePage('/male_question/q7')">그냥 돈이 많아서 플렉스 한거다.</button></p>
+</div>

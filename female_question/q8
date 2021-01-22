@@ -1,0 +1,9 @@
+<img src="/img/q8.png">
+<div id="q8">
+    <p data-type="text">Q. 남자친구가 나랑 사귀는 걸 SNS에 전혀 티내지 않는다. <br>무엇 때문일까?</p>
+    <p><button class="btn" name="btn" type="submit" value="D" onclick="acyncMovePage('/female_question/q9')">내가 부끄러워서</button></p>
+    <p><button class="btn" name="btn" type="submit" value="B" onclick="acyncMovePage('/female_question/q9')">나랑 오래 못 갈 것 같아서</button></p>
+    <p><button class="btn" name="btn" type="submit" value="A" onclick="acyncMovePage('/female_question/q9')">양다리 중이라서</button></p>
+    <p><button class="btn" name="btn" type="submit" value="G" onclick="acyncMovePage('/female_question/q9')">남자친구가 신비주의 컨셉이라서</button></p>
+    <p><button class="btn" name="btn" type="submit" value="H" onclick="acyncMovePage('/female_question/q9')">여자가 아깝다며 사람들이 욕할까 봐</button></p>
+</div>
